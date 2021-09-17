@@ -16,15 +16,21 @@ import { Switch, Route, Redirect } from "react-router-dom";
 const App = () => {
     return(
         <>
+        <div className="parent">
         <Navbar />
         <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/service" component={Service} />
                 <Route exact path="/contact" component={Contact} />
-                <Redirect to="/" />
+                <Route exact path="/Education" component={Education} />
+                <Route exact path="/Ecommerce" component={Ecommerce} />
+                <Route exact path="/Marketing" component={Marketing} />
+                <Route exact path="/Finances" component={Finances} />
         </Switch>
         <Footer />
+
+        </div>
         </>
     );
 };

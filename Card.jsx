@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import web from "../src/images/1.png";
+import Education from "./Education";
 
 const Card = (props) => {
     return (
@@ -11,7 +12,7 @@ const Card = (props) => {
                         <div className="card-body">
                             <h5 className="card-title font-weight-bold">{props.title}</h5>
                             <p className="card-text">{props.disc}</p>
-                            <NavLink to="" className="btn btn-primary">Launch</NavLink>
+                            <NavLink to={props.visit} className="btn btn-primary">{props.btnn}</NavLink>
                         </div>
                 </div>
             </div>

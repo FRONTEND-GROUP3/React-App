@@ -12,8 +12,9 @@
 }
 
 .navbar-brand {
-  font-size: 1.9rem !important;
-  color: #565387 !important;
+  font-size: 2rem !important;
+  font-weight: 1000;
+  color: black !important;
 }
 
 .navbar a {
@@ -122,3 +123,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.service{
+  margin-bottom: 80px;
+}
+.servicehead{
+  font-weight: 600;
+}
+.contacthead{
+  font-weight: 600;
+}
+.serve{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.serve h1{
+  font-weight: 800;
+}
+.serve p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.parent{
+  position: relative;
+  min-height: 100vh;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+ 
+
+
