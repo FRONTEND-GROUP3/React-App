@@ -20,5 +20,5 @@ The Merkelbits parent website is ready and fully functional. A basic version of 
 3. Leah Dsouza - [LinkedIn](https://www.linkedin.com/in/leahdsouza/), [Github](https://github.com/leahdsouza)
 4. Prajwal Bawankule - [LinkedIn](https://www.linkedin.com/in/prajwal-bawankule-415b06214), [Github](https://github.com/PrajwalBawankule) 
 
-  
+[TRELLO BOARD](https://trello.com/b/HLo42sus/weekly-schedule)
 
