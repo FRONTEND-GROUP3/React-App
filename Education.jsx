@@ -7,7 +7,7 @@ const Education = () => {
         <div className="serve">
         <h1>Welcome to Education Page</h1>
        <p>We provide various services in Education.To know more contact us.</p>
-         <NavLink to="/Contact" className="btn btn-primary">Contact Us</ NavLink>
+         <NavLink to="/Contact" className="btn btn-dark">Contact Us</ NavLink>
         </div>
         </>
     );

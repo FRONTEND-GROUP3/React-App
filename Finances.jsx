@@ -7,7 +7,7 @@ const Finances = () => {
             <div className="serve">
                 <h1>Welcome to Finances Page</h1>
                 <p>We provide various services in Finances.To know more contact us.</p>
-                <NavLink to="/Contact" className="btn btn-primary">Contact Us</ NavLink>
+                <NavLink to="/Contact" className="btn btn-dark">Contact Us</ NavLink>
             </div>
         </>
     );

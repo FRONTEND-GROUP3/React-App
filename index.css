@@ -133,18 +133,31 @@ code {
   font-weight: 600;
 }
 .serve{
+  background-image: url(./images/Resourceimg.png);
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  height: 100vh;
 }
 .serve h1{
-  font-weight: 800;
+  font-size: 60px;
+  font-weight: 1000;
 }
 .serve p{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 30px;
   font-size: 25px;
   font-weight: 500;
+}
+.btn{
+  border-radius: 15px !important;
+  font-size: 20px !important;
+}
+.btn:hover{
+ background: white !important;
+ color: black !important;
+
 }
 .parent{
   position: relative;
@@ -155,6 +168,9 @@ code {
   bottom: 0;
   width: 100%;
 }
+
+
+
  
 
 
